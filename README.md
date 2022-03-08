@@ -23,7 +23,7 @@ Kami mengucapkan Terimakasih kepada seluruh kontributor GoTMP, Panduan Kontribus
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [kanggara@kanggara.net](mailto:kanggara@kanggara.net). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within GoTMP, please send an e-mail to Call Vin via [call.vin@kanggara.me](mailto:call.vin@kanggara.me). All security vulnerabilities will be promptly addressed.
 
 ## License
 
