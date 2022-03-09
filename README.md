@@ -1,15 +1,15 @@
 <p align="center">
-<a href="https://laravel.com" target="_blank">
-<img src="https://avatars.githubusercontent.com/kanggara75" width="100">
-</a>
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://avatars.githubusercontent.com/kanggara75" width="100">
+  </a>
 </p>
 
 <p align="center">
-<img alt="Build Status" src="https://img.shields.io/github/checks-status/kanggara/GoTMP_Web/main?style=for-the-badge">
-<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kanggara/GoTMP_Web?style=for-the-badge">
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kanggara/GoTMP_Web?style=for-the-badge">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kanggara/GoTMP_Web?style=for-the-badge">
-<img alt="GitHub" src="https://img.shields.io/github/license/kanggara/GoTMP_Web?style=for-the-badge">
+  <img alt="Build Status" src="https://img.shields.io/github/checks-status/kanggara/GoTMP_Web/main?style=for-the-badge">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kanggara/GoTMP_Web?style=for-the-badge">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kanggara/GoTMP_Web?style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kanggara/GoTMP_Web?style=for-the-badge">
+  <img alt="GitHub" src="https://img.shields.io/github/license/kanggara/GoTMP_Web?style=for-the-badge">
 </p>
 
 ## About GoTMP
@@ -23,7 +23,7 @@ Kami mengucapkan Terimakasih kepada seluruh kontributor GoTMP, Panduan Kontribus
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within GoTMP, please send an e-mail to Call Vin via [call.vin@kanggara.me](mailto:call.vin@kanggara.me). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within GoTMP, please send an e-mail to [Call Vin](mailto:call.vin@kanggara.me). All security vulnerabilities will be promptly addressed.
 
 ## License
 
