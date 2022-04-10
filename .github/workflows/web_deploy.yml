@@ -18,7 +18,7 @@ jobs:
       - name: Remove node_mmodules
         run: rm -rf node_modules
       - name: Remove unused file
-        run: rm .editorconfig .env.example .gitignore .gitattributes .styleci.yml artisan package.json package-lock.json phpunit.xml README.md tailwind.config.js webpack.mix.js
+        run: rm .editorconfig .env.example .gitignore .gitattributes .styleci.yml package.json package-lock.json phpunit.xml README.md tailwind.config.js webpack.mix.js
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
