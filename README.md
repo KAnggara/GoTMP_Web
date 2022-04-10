@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img alt="Build Status" src="https://img.shields.io/github/checks-status/kanggara/GoTMP_Web/main?style=for-the-badge">
+  <img alt="Build Status" src="https://img.shields.io/github/workflow/status/KAnggara/GoTMP_Web/%F0%9F%9A%80%20Deploy%20website?label=CD&logo=laravel&style=for-the-badge">
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kanggara/GoTMP_Web?style=for-the-badge">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kanggara/GoTMP_Web?style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kanggara/GoTMP_Web?style=for-the-badge">
