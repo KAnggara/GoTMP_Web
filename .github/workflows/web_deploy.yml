@@ -1,4 +1,4 @@
-name: 🚀 Deploy website on push
+name: 🚀 Deploy website
 
 on:
   push:
@@ -11,6 +11,14 @@ jobs:
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
+      - name: Install Node dependencies
+        run: npm install
+      - name: Run Production build
+        run: npm run prod
+      - name: Remove node_mmodules
+        run: rm -rf node_modules
+      - name: Remove unused file
+        run: rm .editorconfig .env.example .gitignore .gitattributes .styleci.yml artisan composer.json composer.lock package.json package-lock.json phpunit.xml README.md tailwind.config.js webpack.mix.js
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
@@ -31,4 +39,4 @@ jobs:
           username: ${{ secrets.SOP_SSH_USERNAME }}
           password: ${{ secrets.SOP_SSH_PASSWORD }}
           port: ${{ secrets.SOP_SSH_PORT }}
-          script: cd public_html/kame/gotmp && composer install
+          script: cd public_html/kame/gotmp && composer install --optimize-autoloader --no-dev
